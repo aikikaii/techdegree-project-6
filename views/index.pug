@@ -1,0 +1,20 @@
+extends layout.pug
+
+block content 
+  article.grid-container.portfolio-intro
+    div     
+      h1 My Portfolio
+      
+      p.lead.text-light
+        | I like JavaScript. I was always wandered how web works and how is everything connected. Studying programming languages you realize what is going on under hood of every app that you run. Having understanding of how things works gives you opportunity to create something that might make world better place and make people's lives easier.
+  article.grid-container.portfolio-index
+
+    .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
+
+      each project in projects
+        .cell
+          a(href=`projects/${project.id}`)
+            img.thumbnail(src=`${project.image_urls[1]}`)
+            h5= project.project_name
+ 
+      
