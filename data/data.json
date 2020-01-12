@@ -1,0 +1,53 @@
+{
+  "projects": [{
+      "id": 0,
+      "project_name": "Random Quote Generator",
+      "description": "App displays random quotes each time button is clicked",
+      "technologies": ["CSS", "JavaScript"],
+      "live_link": "https://aikikaii.github.io/techdegree-project-1/",
+      "github_link": "https://github.com/aikikaii/techdegree-project-1",
+      "image_urls": ["/static/images/project1/1.png", "/static/images/project1/2.png"]
+    },
+
+    {
+      "id": 1,
+      "project_name": "List Pagination and Filtering",
+      "description": "Page displays students names without JavaScript turned on",
+      "technologies": ["CSS", "JavaScript", "HTML"],
+      "live_link": "https://aikikaii.github.io/techdegree-project-2/",
+      "github_link": "https://github.com/aikikaii/techdegree-project-2",
+      "image_urls": ["/static/images/project2/1.png", "/static/images/project2/2.png"]
+    },
+
+    {
+      "id": 2,
+      "project_name": "Interactive Form",
+            "description": "User is filling up form for activities",
+            "technologies": ["CSS", "JavaScript", "HTML", "JQuery"],
+            "live_link": "https://aikikaii.github.io/techdegree-project-3/",
+            "github_link": "https://github.com/aikikaii/techdegree-project-3/",
+      "image_urls": ["/static/images/project3/1.png", "/static/images/project3/2.png"]
+    },
+
+    {
+      "id": 3,
+      "project_name": "OOP Game Show",
+      "description": "User will get random phrase which he has to guess by clicking letters on an onscrean keyboard",
+      "technologies": ["CSS", "JavaScript", "HTML", "JQuery"],
+      "live_link": "https://aikikaii.github.io/techdegree-project-4/",
+      "github_link": "https://github.com/aikikaii/techdegree-project-4",
+      "image_urls": ["/static/images/project4/1.png", "/static/images/project4/2.png"]
+    },
+
+    {
+      "id": 4,
+      "project_name": "Public API Request",
+      "description": "Getting information from API, use data to build prototype for an Awesome Startup employee directory",
+      "technologies": ["CSS", "JavaScript", "HTML", "JQuery", "JSON", "AJAX"],
+      "live_link": "https://aikikaii.github.io/techdegree-project-5/",
+      "github_link": "https://github.com/aikikaii/techdegree-project-5/",
+      "image_urls": ["/static/images/project5/1.png", "/static/images/project5/2.png"]
+    }
+    
+  ]
+}
